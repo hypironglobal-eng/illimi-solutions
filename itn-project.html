@@ -1,0 +1,419 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ITN Project | Illimi Solutions Limited</title>
+  <meta name="description" content="GiveWell Nigeria ITN Independent Monitoring and Surveys — training resources for Mappers & Listers and Baseline Survey teams.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="icon" href="assets/images/logo.jpg" type="image/jpeg">
+  <style>
+    /* ITN-specific extra styles */
+    .objective-list { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; margin-top: 1rem; }
+    .objective-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 0.93rem; color: #444; }
+    .objective-list li::before { content: "✓"; color: var(--green); font-weight: 800; font-size: 1rem; flex-shrink: 0; margin-top: 2px; }
+    .phase-timeline { display: flex; gap: 1.5rem; margin-top: 1.5rem; flex-wrap: wrap; }
+    .phase-item { flex: 1; min-width: 180px; background: var(--white); border-radius: var(--radius); padding: 1.25rem; box-shadow: var(--shadow); position: relative; border-top: 4px solid var(--navy); }
+    .phase-num { position: absolute; top: -16px; left: 1.25rem; background: var(--gold); color: var(--navy); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 0.85rem; }
+    .phase-item h5 { font-size: 0.92rem; font-weight: 700; color: var(--navy); margin-top: 0.5rem; }
+    .phase-item p { font-size: 0.82rem; color: #666; margin-top: 0.3rem; }
+    .drive-note { background: rgba(201,162,39,0.12); border: 1px solid var(--gold); border-radius: 8px; padding: 0.9rem 1.2rem; font-size: 0.85rem; color: #5a4200; display: flex; align-items: center; gap: 8px; margin-bottom: 1rem; }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="header-inner">
+    <div class="logo-area">
+      <img src="assets/images/logo.jpg" alt="Illimi Solutions Limited Logo">
+      <div class="logo-text">
+        <span class="brand-name">Illimi Solutions Limited</span>
+        <span class="brand-tagline">Research &amp; Data Collection</span>
+      </div>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="projects.html">Projects</a>
+      <a href="itn-project.html" class="active">ITN Project</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <div class="hamburger" id="hamburger" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</header>
+
+<!-- BREADCRUMB -->
+<div class="breadcrumb">
+  <div class="breadcrumb-inner">
+    <a href="index.html">&#127968; Home</a>
+    <span>&#8250;</span>
+    <a href="projects.html">Projects</a>
+    <span>&#8250;</span>
+    <span>ITN Project</span>
+  </div>
+</div>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <h1>&#9877; GiveWell Nigeria ITN Project</h1>
+  <p>Insecticide-Treated Nets — Independent Monitoring, Listing &amp; Baseline Surveys</p>
+</div>
+
+<!-- =====================================
+     SECTION 1: PROJECT INTRODUCTION
+     ===================================== -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="itn-intro">
+      <div class="itn-intro-text">
+        <div class="section-title">Project Introduction</div>
+        <p class="section-subtitle">Understanding the ITN Listing &amp; Survey Project</p>
+
+        <p>
+          Illimi Solutions Limited has been engaged as the <strong>independent monitoring and survey firm</strong>
+          for the GiveWell-funded Insecticide-Treated Net (ITN) distribution programme in Nigeria. This project —
+          the <em>ITN Listing Project, October 2026</em> — is a critical component of GiveWell's strategy to
+          independently verify the coverage, reach, and impact of ITN distribution across targeted communities in Nigeria.
+        </p>
+        <p>
+          Insecticide-Treated Nets (ITNs) are one of the most cost-effective interventions for preventing malaria,
+          a leading cause of morbidity and mortality in Nigeria — particularly among children under five and pregnant women.
+          GiveWell funds ITN distribution programmes and requires rigorous, independent monitoring to verify that nets
+          reach intended beneficiaries, are used correctly, and achieve the desired public health outcomes.
+        </p>
+        <p>
+          Illimi Solutions Limited brings together experienced field coordinators, trained enumerators, GIS specialists,
+          and data managers to deliver two integrated field activities:
+          <strong>Mappers &amp; Listers</strong> (household enumeration and community mapping) and
+          <strong>Baseline Surveys</strong> (quantitative household data collection on ITN ownership, access, and use).
+        </p>
+
+        <div class="info-box mt-1">
+          <h4>&#127757; Programme Context</h4>
+          <p>
+            The Against Malaria Foundation (AMF) and Malaria Consortium — both supported by GiveWell — distribute
+            millions of ITNs across Nigerian states. Independent monitoring by Illimi Solutions helps verify that
+            distribution records are accurate, nets reach households, and programme data is reliable.
+          </p>
+        </div>
+      </div>
+
+      <!-- STATS COLUMN -->
+      <div class="itn-stats">
+        <div class="stat-box">
+          <div class="stat-number">&#9877;</div>
+          <div class="stat-label">Insecticide-Treated Net (ITN) Programme</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-number">2</div>
+          <div class="stat-label">Core Field Activities (Listing &amp; Baseline)</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-number">Oct 2026</div>
+          <div class="stat-label">Current Field Activity Period</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-number">&#127750;</div>
+          <div class="stat-label">Nigeria — Multiple LGAs Across Target States</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-number">GiveWell</div>
+          <div class="stat-label">Funding Organisation</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================
+     SECTION 2: ABOUT THE PROJECT
+     ===================================== -->
+<section class="section">
+  <div class="container">
+    <div class="section-title">About the ITN Project</div>
+    <p class="section-subtitle">Goals, methodology, and field implementation</p>
+
+    <!-- OBJECTIVES -->
+    <div class="info-box">
+      <h4>&#127919; Project Objectives</h4>
+      <p>The ITN Listing and Baseline Survey Project has the following key objectives:</p>
+    </div>
+    <ul class="objective-list">
+      <li>Conduct systematic household listing and community mapping in target Local Government Areas to create an accurate sampling frame for net distribution and surveys.</li>
+      <li>Enumerate all households within defined enumeration areas, capturing structure counts, household membership, and GPS coordinates.</li>
+      <li>Conduct a rigorous baseline household survey to measure ITN ownership, access, and utilisation rates <em>before</em> distribution, providing the counterfactual benchmark for impact evaluation.</li>
+      <li>Independently verify programme data by cross-checking distribution records against field-level observations and household reports.</li>
+      <li>Generate high-quality, geo-referenced data that supports programme planning, targeting, and post-distribution monitoring (PDM).</li>
+      <li>Train and deploy field teams of mappers, listers, and enumerators according to standardised protocols and quality assurance procedures.</li>
+    </ul>
+
+    <!-- PROJECT PHASES -->
+    <h3 style="font-size:1.2rem; font-weight:700; color:var(--navy); margin: 2rem 0 0.5rem;">Project Implementation Phases</h3>
+    <div class="phase-timeline">
+      <div class="phase-item">
+        <div class="phase-num">1</div>
+        <h5>Training</h5>
+        <p>Mappers, Listers, and Baseline Survey teams receive structured training on protocols, tools, and quality standards.</p>
+      </div>
+      <div class="phase-item">
+        <div class="phase-num">2</div>
+        <h5>Community Mapping</h5>
+        <p>GIS-equipped mappers delineate enumeration areas, identify landmarks, and map settlement boundaries.</p>
+      </div>
+      <div class="phase-item">
+        <div class="phase-num">3</div>
+        <h5>Household Listing</h5>
+        <p>Listers systematically enumerate all households within enumeration areas, capturing GPS data and dwelling information.</p>
+      </div>
+      <div class="phase-item">
+        <div class="phase-num">4</div>
+        <h5>Baseline Survey</h5>
+        <p>Trained enumerators administer structured questionnaires to randomly selected households on ITN ownership and use.</p>
+      </div>
+      <div class="phase-item">
+        <div class="phase-num">5</div>
+        <h5>Data QA &amp; Submission</h5>
+        <p>Supervisors back-check collected data; data managers clean, validate, and submit quality-assured datasets.</p>
+      </div>
+    </div>
+
+    <!-- WHO IS INVOLVED -->
+    <div class="cards-grid mt-3">
+      <div class="card" style="border-top-color: var(--green);">
+        <div class="card-icon">&#128205;</div>
+        <h3>Mappers</h3>
+        <p>Responsible for GIS mapping of enumeration areas, satellite imagery interpretation, and spatial boundary delineation using GPS-enabled devices.</p>
+      </div>
+      <div class="card" style="border-top-color: var(--navy);">
+        <div class="card-icon">&#128203;</div>
+        <h3>Listers</h3>
+        <p>Systematically list all households within assigned enumeration areas, recording structure details, household counts, and GPS waypoints.</p>
+      </div>
+      <div class="card" style="border-top-color: var(--gold);">
+        <div class="card-icon">&#128202;</div>
+        <h3>Baseline Surveyors</h3>
+        <p>Administer structured household questionnaires to measure ITN access, ownership, and use prior to net distribution.</p>
+      </div>
+      <div class="card" style="border-top-color: var(--navy);">
+        <div class="card-icon">&#128374;</div>
+        <h3>Field Supervisors</h3>
+        <p>Oversee field teams, conduct back-checks, provide on-site quality assurance, and submit daily progress reports.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================
+     SECTION 3: TRAINING RESOURCES
+     ===================================== -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-title">&#127979; Training Resources</div>
+    <p class="section-subtitle">Access all training materials for the ITN Project field teams</p>
+
+    <div class="training-section">
+      <h3>Select Your Training Module</h3>
+      <p class="training-desc">
+        Click on the appropriate module below to access training presentations, field guides, protocols,
+        and reference documents. All materials open directly in Google Drive online — no download required.
+      </p>
+
+      <div class="training-grid">
+
+        <!-- ====== CARD 1: MAPPERS & LISTERS ====== -->
+        <div class="training-card tc-mappers">
+          <div class="training-card-top">
+            <span class="training-icon">&#128205;</span>
+            <h4>Mappers &amp; Listers Training</h4>
+            <p>
+              All training materials for field teams responsible for community mapping and household listing.
+              Includes field protocols, enumeration guides, GPS instructions, mapping standards,
+              data collection tools, and supervisor resources.
+            </p>
+            <ul style="margin-top: 0.75rem; padding-left: 1.2rem; font-size: 0.85rem; color: #555; line-height: 1.8;">
+              <li>Community mapping protocols &amp; boundaries</li>
+              <li>Household listing procedures &amp; forms</li>
+              <li>GPS / device operation guides</li>
+              <li>Enumeration area (EA) assignment instructions</li>
+              <li>Quality control checklists</li>
+              <li>Supervisor field guides</li>
+            </ul>
+          </div>
+          <div class="training-card-footer">
+            <button class="training-link" id="btn-mappers" onclick="togglePanel('panel-mappers', 'btn-mappers')">
+              &#128193; View Training Materials
+            </button>
+            <span style="font-size:0.78rem; color:#888;">Google Drive</span>
+          </div>
+        </div>
+
+        <!-- ====== CARD 2: BASELINE TRAINING ====== -->
+        <div class="training-card tc-baseline">
+          <div class="training-card-top">
+            <span class="training-icon">&#128202;</span>
+            <h4>Baseline Survey Training</h4>
+            <p>
+              All training materials for the Baseline Survey teams conducting household questionnaire
+              interviews. Includes survey protocols, questionnaire guides, consent forms, interviewer
+              training presentations, data entry manuals, and quality assurance resources.
+            </p>
+            <ul style="margin-top: 0.75rem; padding-left: 1.2rem; font-size: 0.85rem; color: #555; line-height: 1.8;">
+              <li>Baseline survey questionnaire &amp; guide</li>
+              <li>Interviewer training presentations (PPT)</li>
+              <li>Informed consent &amp; ethical procedures</li>
+              <li>SurveyCTO / ODK data entry instructions</li>
+              <li>Sampling &amp; household selection procedures</li>
+              <li>Data quality assurance protocols</li>
+            </ul>
+          </div>
+          <div class="training-card-footer">
+            <a href="https://drive.google.com/drive/folders/1BMUAt9DymNe-35205t2m7yZGC8FxFfwb?usp=sharing"
+               target="_blank" rel="noopener" class="training-link">
+              &#128202; Open Baseline Training Drive
+            </a>
+            <span style="font-size:0.78rem; color:#888;">Opens Google Drive</span>
+          </div>
+        </div>
+
+      </div><!-- end training-grid -->
+
+      <!-- ====== MAPPERS & LISTERS FOLDER PANEL ====== -->
+      <div class="folder-panel" id="panel-mappers">
+        <h5>
+          &#128193; Mappers &amp; Listers — Training Materials
+          <button class="close-panel" onclick="closePanel('panel-mappers','btn-mappers')" title="Close">&#10005;</button>
+        </h5>
+        <div class="drive-note">
+          &#9888; Click any document below to open it directly in Google Docs / Google Slides online. Materials are stored in the project Google Drive folder.
+        </div>
+        <ul class="doc-list">
+          <li>
+            <a href="https://drive.google.com/drive/folders/1BMUAt9DymNe-35205t2m7yZGC8FxFfwb?usp=sharing" target="_blank" rel="noopener">
+              <span class="doc-icon">&#128193;</span>
+              <span>Open Full Mappers &amp; Listers Drive Folder</span>
+              <span class="doc-tag">Google Drive</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://drive.google.com/drive/folders/1BMUAt9DymNe-35205t2m7yZGC8FxFfwb?usp=sharing" target="_blank" rel="noopener">
+              <span class="doc-icon">&#128203;</span>
+              <span>Field Protocols &amp; Enumeration Guide (Word)</span>
+              <span class="doc-tag">DOC</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://drive.google.com/drive/folders/1BMUAt9DymNe-35205t2m7yZGC8FxFfwb?usp=sharing" target="_blank" rel="noopener">
+              <span class="doc-icon">&#128202;</span>
+              <span>Mappers &amp; Listers Training Presentation</span>
+              <span class="doc-tag">PPT</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://drive.google.com/drive/folders/1BMUAt9DymNe-35205t2m7yZGC8FxFfwb?usp=sharing" target="_blank" rel="noopener">
+              <span class="doc-icon">&#127758;</span>
+              <span>GPS Device Operation &amp; Mapping Instructions</span>
+              <span class="doc-tag">PDF</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://drive.google.com/drive/folders/1BMUAt9DymNe-35205t2m7yZGC8FxFfwb?usp=sharing" target="_blank" rel="noopener">
+              <span class="doc-icon">&#9989;</span>
+              <span>Quality Control &amp; Back-check Checklist</span>
+              <span class="doc-tag">DOC</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://drive.google.com/drive/folders/1BMUAt9DymNe-35205t2m7yZGC8FxFfwb?usp=sharing" target="_blank" rel="noopener">
+              <span class="doc-icon">&#128100;</span>
+              <span>Supervisor Field Guide</span>
+              <span class="doc-tag">DOC</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://drive.google.com/drive/folders/1BMUAt9DymNe-35205t2m7yZGC8FxFfwb?usp=sharing" target="_blank" rel="noopener">
+              <span class="doc-icon">&#128205;</span>
+              <span>Enumeration Area (EA) Boundary Maps</span>
+              <span class="doc-tag">Maps</span>
+            </a>
+          </li>
+        </ul>
+        <p style="margin-top: 1rem; font-size: 0.82rem; color: #777;">
+          &#128274; All materials require access to the project Google Drive. Contact your supervisor if you are unable to open any document.
+        </p>
+      </div>
+      <!-- END MAPPERS PANEL -->
+
+    </div><!-- end training-section -->
+  </div>
+</section>
+
+<!-- =====================================
+     SECTION 4: DATA QUALITY NOTE
+     ===================================== -->
+<section class="section">
+  <div class="container">
+    <div class="section-title">&#9989; Data Quality &amp; Field Standards</div>
+    <p class="section-subtitle">Our commitment to rigorous, high-integrity data collection</p>
+    <div class="cards-grid">
+      <div class="card">
+        <div class="card-icon">&#128203;</div>
+        <h3>Standardised Protocols</h3>
+        <p>All field teams work from standardised, pre-tested protocols. No deviations are permitted without written authorisation from the Field Coordinator.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">&#128241;</div>
+        <h3>Digital Data Collection</h3>
+        <p>All data is collected electronically using tablets loaded with validated survey forms. No paper forms are used for primary data entry.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">&#128270;</div>
+        <h3>Back-checks &amp; Audits</h3>
+        <p>A minimum of 10% of all completed interviews and listings are subject to back-check by supervisors to verify data quality and interviewer conduct.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">&#128274;</div>
+        <h3>Ethical Standards</h3>
+        <p>All field activities are conducted in full compliance with informed consent requirements, data confidentiality protocols, and research ethics guidelines.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="assets/images/logo.jpg" alt="Illimi Solutions">
+      <p>Illimi Solutions Limited — Conducting independent monitoring and surveys for the GiveWell Nigeria ITN Programme.</p>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="itn-project.html">ITN Project</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>ITN Project</h4>
+      <ul>
+        <li><a href="itn-project.html#training">Training Resources</a></li>
+        <li><a href="https://drive.google.com/drive/folders/1BMUAt9DymNe-35205t2m7yZGC8FxFfwb?usp=sharing" target="_blank">Project Google Drive</a></li>
+        <li><a href="itn-project.html">Project Overview</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 <span>Illimi Solutions Limited</span>. All rights reserved.</p>
+    <p>Abuja, FCT, Nigeria</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
